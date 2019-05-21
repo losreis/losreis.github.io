@@ -3914,6 +3914,7 @@ ul.uk-nav-sub {
   display: flex;
   /* 1 */
   position: relative;
+    border-bottom:5px solid rgba(108, 0, 255, 0.68);
 }
 /* Container
  ========================================================================== */
