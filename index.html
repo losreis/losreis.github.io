@@ -206,6 +206,7 @@
                                                                         <h2 class="title">Deseja falar comigo?</h2>
                                                                         <p class="description">Seu contato é muito importante!</p>
                                                                         <p class="desciption">FORMULÁRIO DESABILITADO</p>
+                                                                        <form action="" method="post">
                                                                         <div class="row">
                                                                             <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
                                                                                 <div class="input-group input-lg">
@@ -214,7 +215,7 @@
                                                                                             <i class="now-ui-icons users_circle-08"></i>
                                                                                         </span>
                                                                                     </div>
-                                                                                    <input type="text" class="form-control" placeholder="Nome completo">
+                                                                                    <input id="nome" type="text" class="form-control" placeholder="Nome completo">
                                                                                     </div>
                                                                                     <div class="input-group input-lg">
                                                                                         <div class="input-group-prepend">
@@ -222,7 +223,7 @@
                                                                                                 <i class="now-ui-icons ui-1_email-85"></i>
                                                                                             </span>
                                                                                         </div>
-                                                                                        <input type="text" class="form-control" placeholder="E-mail">
+                                                                                        <input id="email" type="text" class="form-control" placeholder="E-mail">
                                                                                         </div>
                                                                                         <div class="input-group input-lg">
                                                                                             <div class="input-group-prepend">
@@ -230,16 +231,17 @@
                                                                                                     <i class="now-ui-icons tech_mobile"></i>
                                                                                                 </span>
                                                                                             </div>
-                                                                                            <input type="text" class="form-control" placeholder="Número para contato" onkeyup = "mascara('(##) #####-####', this,event,true)", maxlength = "21">
+                                                                                            <input id="numero" type="text" class="form-control" placeholder="Número para contato" onkeyup = "mascara('(##) #####-####', this,event,true)", maxlength = "21">
                                                                                             </div>
                                                                                             <div class="textarea-container">
-                                                                                                <textarea class="form-control" name="name" rows="4" cols="80" placeholder="Digite uma mensagem"></textarea>
+                                                                                                <textarea id="mensagem" class="form-control" name="name" rows="4" cols="80" placeholder="Digite uma mensagem"></textarea>
                                                                                             </div>
                                                                                             <div class="send-button">
                                                                                                 <a href="#pablo" class="btn btn-primary btn-round btn-block btn-lg disabled">Enviar mensagem</a>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
+                                                                            </form>
                                                                                 </div>
                                                                             </div>
                                                                             <footer class="footer footer-default">
